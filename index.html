@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Johan Commelin</title>
+<meta name="description" content="Johan Commelin — Director of the Mathlib Initiative at Renaissance Philanthropy and assistant professor at Utrecht University.">
+<link rel="icon" href="johan_site.jpg">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Johan Commelin">
+<meta property="og:description" content="Director of the Mathlib Initiative at Renaissance Philanthropy · Assistant Professor at Utrecht University">
+<meta property="og:url" content="https://math.commelin.net/">
+<meta property="og:image" content="https://math.commelin.net/johan_site.jpg">
+<meta name="twitter:card" content="summary">
+<style>
+  :root {
+    --bg: #faf9f6;
+    --fg: #1c1c1c;
+    --muted: #6b6b6b;
+    --rule: #dcd9d2;
+    --accent: #8a3b12;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161616;
+      --fg: #e8e6e1;
+      --muted: #9a9890;
+      --rule: #3a3936;
+      --accent: #e0a37a;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html { height: 100%; }
+  body {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    padding: 3rem 1.5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 1.0625rem/1.6 "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 26rem; }
+  img {
+    display: block;
+    width: 168px;
+    height: 168px;
+    margin: 0 auto 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1px var(--rule);
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 2.25rem;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+  }
+  .roles {
+    margin-top: 1rem;
+    color: var(--muted);
+    list-style: none;
+    padding: 0;
+  }
+  hr {
+    width: 2.5rem;
+    margin: 2rem auto;
+    border: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .contact {
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+    font-size: 1.05rem;
+  }
+  .emails { list-style: none; padding: 0; }
+  .contact { margin-top: 0.75rem; }
+  .contact span { margin: 0 0.7em; color: var(--muted); }
+  .roles li + li { margin-top: 0.5rem; }
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .roles a { border-bottom-color: var(--rule); }
+  a:hover, a:focus-visible { color: var(--accent); border-bottom-color: currentColor; }
+</style>
+</head>
+<body>
+<main>
+  <img src="johan_site.jpg" alt="Portrait of Johan Commelin" width="168" height="168">
+  <h1>Johan Commelin</h1>
+  <ul class="roles">
+    <li>Director of the <a href="https://mathlib-initiative.org">Mathlib Initiative</a><br>at <a href="https://www.renaissancephilanthropy.org">Renaissance Philanthropy</a></li>
+    <li>Assistant Professor<br>at <a href="https://www.uu.nl/en/organisation/department-of-mathematics">Utrecht University</a></li>
+  </ul>
+  <hr>
+  <ul class="emails">
+    <li><a href="mailto:johan@mathlib-initiative.org">johan@mathlib-initiative.org</a></li>
+    <li><a href="mailto:j.m.commelin@uu.nl">j.m.commelin@uu.nl</a></li>
+  </ul>
+  <p class="contact">
+    <a href="https://arxiv.org/search/?searchtype=author&amp;query=Commelin%2C+Johan">arxiv</a><span aria-hidden="true">·</span><a href="https://github.com/jcommelin">github</a>
+  </p>
+</main>
+</body>
+</html>
